@@ -68,7 +68,7 @@ p {
     float: right;
     margin-left: 25px;
 }
-/* Replaced .CONTENT with MAIN semantic element */
+/* Replaced .content with MAIN semantic element */
 main {
     width: 75%;
     display: inline-block;
@@ -85,21 +85,20 @@ aside {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-/* 
-Replaced individual divs inside main with 1 section selector */
-section{
+/* Replaced individual divs inside main with 1 main section */
+aside section{
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-/* Condensed multiple benefit h3 classes with 1 h3 selector */
+/* Condensed multiple benefit h3 classes with 1 h3  */
 h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-/* Condensed multiple image classes with 1 figure image selector */
-figure img {
+/* Condensed multiple image classes with 1 figure image */
+aside figure img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
@@ -113,16 +112,16 @@ main section {
     background-color: #0072bb;
     color: #ffffff;
 }
-/* Replaced multiple image classes in main with 1 img selector */
-main img {
+/* Replaced multiple image classes in main with 1 figure */
+main figure img {
     max-height: 200px;
 }
-
+Replaced multiple h2 classes with 1 
 h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/* Replaced class with footer semantic element */
 footer {
     padding: 30px;
     clear: both;
