@@ -7,7 +7,7 @@
 body {
     background-color: #d9dcd6;
 }
-/* Changed .header classes to semantic header element */
+/*Replaced div header class with HEADER semantic element*/
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -23,7 +23,7 @@ header h1 {
 header h1 .seo {
     color: #d9dcd6;
 }
-/* Changed header divs to semantic nav element */
+/* replaced divs inside header with NAV semantic element*/
 nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -68,14 +68,14 @@ p {
     float: right;
     margin-left: 25px;
 }
-
-.content {
+/* Replaced .CONTENT with MAIN semantic element */
+main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-
-.benefits {
+/* Replaced .benefits with ASIDE semantic element */
+aside {
     margin-right: 20px;
     padding: 20px;
     clear: both;
