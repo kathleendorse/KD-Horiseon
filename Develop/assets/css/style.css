@@ -7,7 +7,7 @@
 body {
     background-color: #d9dcd6;
 }
-
+/* Changed .header classes to semantic header element */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -23,8 +23,8 @@ header h1 {
 header h1 .seo {
     color: #d9dcd6;
 }
-
-header div {
+/* Changed header divs to semantic nav element */
+nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -32,11 +32,11 @@ header div {
     font-size: 20px;
 }
 
-header div ul {
+nav ul {
     list-style-type: none;
 }
 
-header div ul li {
+nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
